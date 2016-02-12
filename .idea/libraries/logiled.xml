@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="logiled">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/sdk/Lib/JNI/logiled.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/sdk/Lib/JNI/logiled.jar!/" />
+    </SOURCES>
+  </library>
+</component>

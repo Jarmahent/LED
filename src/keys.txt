@@ -1,0 +1,138 @@
+if(event.getVirtualKeyCode() == 65){
+                    led.LogiLedFlashSingleKey(0x1E, r, g, b, d, i); //a
+
+                }
+                if(event.getVirtualKeyCode() == 66){
+                    led.LogiLedFlashSingleKey(0x30, r, g, b, d, i); //b
+
+                }
+                if(event.getVirtualKeyCode() == 67){
+                    led.LogiLedFlashSingleKey(0x2E, r, g, b, d, i); //c
+
+                }
+                if(event.getVirtualKeyCode() == 68){
+                    led.LogiLedFlashSingleKey(0x20, r, g, b, d, i); //d
+
+                }
+                if(event.getVirtualKeyCode() == 69){
+                    led.LogiLedFlashSingleKey(0x12, r, g, b, d, i); //e
+
+                }
+                if(event.getVirtualKeyCode() == 70){
+                    led.LogiLedFlashSingleKey(0x21, r, g, b, d, i);   // f
+
+                }
+                if(event.getVirtualKeyCode() == 71){
+                    led.LogiLedFlashSingleKey(0x22, r, g, b, d, i);  // g
+
+                }
+                if(event.getVirtualKeyCode() == 72){
+                    led.LogiLedFlashSingleKey(0x23, r, g, b, d, i);  // h
+
+                }
+                if(event.getVirtualKeyCode() == 73){
+                    led.LogiLedFlashSingleKey(0x17, r, g, b, d, i); // i
+
+                }
+                if(event.getVirtualKeyCode() == 74){
+                    led.LogiLedFlashSingleKey(0x24, r, g, b, d, i); // j
+
+                }
+                if(event.getVirtualKeyCode() == 75){
+                    led.LogiLedFlashSingleKey(0x25, r, g, b, d, i);  // k
+
+                }
+                if(event.getVirtualKeyCode() == 76){
+                    led.LogiLedFlashSingleKey(0x26, r, g, b, d, i);  // l
+
+                }
+                if(event.getVirtualKeyCode() == 77){
+                    led.LogiLedFlashSingleKey(0x32, r, g, b, d, i);  // m
+
+                }
+                if(event.getVirtualKeyCode() == 78){
+                    led.LogiLedFlashSingleKey(0x31, r, g, b, d, i);  // n
+
+                }
+                if(event.getVirtualKeyCode() == 79){
+                    led.LogiLedFlashSingleKey(0x18, r, g, b, d, i); // o
+
+                }
+                if(event.getVirtualKeyCode() == 80){
+                    led.LogiLedFlashSingleKey(0x19, r, g, b, d, i);  // p
+
+                }
+                if(event.getVirtualKeyCode() == 81){
+                    led.LogiLedFlashSingleKey(0x10, r, g, b, d, i);  // q
+
+                }
+                if(event.getVirtualKeyCode() == 82){
+                    led.LogiLedFlashSingleKey(0x13, r, g, b, d, i);  // r
+
+                }
+                if(event.getVirtualKeyCode() == 83){
+                    led.LogiLedFlashSingleKey(0x1F, r, g, b, d, i);  // s
+
+                }
+                if(event.getVirtualKeyCode() == 84){
+                    led.LogiLedFlashSingleKey(0x14, r, g, b, d, i); // t
+
+                }
+                if(event.getVirtualKeyCode() == 85){
+                    led.LogiLedFlashSingleKey(0x16, r, g, b, d, i); // u
+
+                }
+                if(event.getVirtualKeyCode() == 86){
+                    led.LogiLedFlashSingleKey(0x2F, r, g, b, d, i); // v
+
+                }
+                if(event.getVirtualKeyCode() == 87){
+                    led.LogiLedFlashSingleKey(0x11, r, g, b, d, i);  //w
+
+                }
+                if(event.getVirtualKeyCode() == 88){
+                    led.LogiLedFlashSingleKey(0x2D, r, g, b, d, i);  // x
+
+                }
+                if(event.getVirtualKeyCode() == 89){
+                    led.LogiLedFlashSingleKey(0x15, r, g, b, d, i);  //y
+
+                }
+                if(event.getVirtualKeyCode() == 90){
+                    led.LogiLedFlashSingleKey(0x2C, r, g, b, d, i);  // z
+
+                }
+
+
+                case 69:
+                case 70:
+                case 71:
+                case 72:
+                case 73:
+                case 74:
+                case 75:
+                case 76:
+                case 77:
+                case 78:
+                case 79:
+                case 80:
+                case 81:
+                case 82:
+                case 83:
+                case 84:
+                case 85:
+                case 86:
+                case 87:
+                case 88:
+                case 89:
+                case 90:
+
+
+                int[][] positionMap = new int[][]{
+                                {0x01, 0x3b, 0x3c, 0x3d, 0x3e, 0x3f, 0x40, 0x41, 0x42, 0x43, 0x44, 0x57,  0x58, 0x137, 0x46, 0x145},
+                                {0x29, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A, 0x0B, 0x0C,  0x0D, 0x0E, 0x152, 0x147, 0x149, 0x45, 0x135, 0x37, 0x4A},
+                                {0x0F, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17, 0x18, 0x19, 0x1A, 0x1B, 0x2B, 0x153, 0x14F, 0x151, 0x47, 0x48, 0x49, 0x4E, 1000},
+                                {0x3A, 0x1E, 0x1F, 0x20, 0x21, 0x22, 0x23, 0x24, 0x25, 0x26, 0x27, 0x28, 0x1C, 0x4B, 0x4C, 0x4D, 0x4E, 1000},
+                                {0x2A, 0x2C, 0x2D, 0x2E, 0x2F, 0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x148, 0x4F, 0x50, 0x51, 0x11C, 1000},
+                                {0x1D, 0x15B, 0x38, 0x39, 0x138, 0x15C, 0x15D, 0x11D, 0x14B, 0x150, 0x14D, 0x52, 0x53, 0x11C, 1000},
+                        };
