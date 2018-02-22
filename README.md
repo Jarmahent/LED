@@ -1,6 +1,5 @@
-# LED
-Project has ended
+# Logitech SDK LED controller *OLD DEPCRICATED*
+
+## This is a controller for the logitech keyboard G910 SDK is newer so this entire code base is depcricated
 
 
-I started this project with Logitechs LED SDK, after sometime trying to make things faster I just couldnt and I have failed with this poject, 
-it was slow, consantly crashed, and was getting extremely cluddered, so this is my first and only commit to it. 
